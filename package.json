@@ -4,13 +4,14 @@
   "description": "",
   "main": "index.js",
   "files": [
-    "main/**/*"
+    "build/**/*"
   ],
   "bin": {
     "cnv": "./build/index.js"
   },
   "scripts": {
-    "test": "ava"
+    "test": "ava",
+    "build": "tsc"
   },
   "keywords": [],
   "author": "",
