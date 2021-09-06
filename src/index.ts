@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 import convert from 'convert-units';
 import parseNumberFromString from './helpers/parse-number-from-string'
 import parseUnitFromString from './helpers/parse-alphabet-from-string'
