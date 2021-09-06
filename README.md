@@ -1,3 +1,5 @@
+<img src="./img/logo.png" width="150px">
+
 # cnv
 
 CLI tool to convert units in the command line. This module uses the [convert-units](https://github.com/convert-units/convert-units) module under the hood.
