@@ -22,5 +22,5 @@ if (!unit) {
 }
 
 console.log(
-  `hi ${convert(numberToConvert).from(unit).to(unitToConvertTo as Unit)}`,
+  convert(numberToConvert).from(unit).to(unitToConvertTo as Unit),
 )
