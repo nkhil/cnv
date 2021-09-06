@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-import convert from 'convert-units';
+import convert from './helpers/convert'
 import parseNumberFromString from './helpers/parse-number-from-string'
 import parseUnitFromString from './helpers/parse-alphabet-from-string'
 import type { Unit } from 'convert-units'
@@ -22,5 +22,9 @@ if (!unit) {
 }
 
 console.log(
-  convert(numberToConvert).from(unit).to(unitToConvertTo as Unit),
+  convert({
+    numberToConvert,
+    unit,
+    unitToConvertTo: unitToConvertTo as Unit,
+  }),
 )
