@@ -4,10 +4,10 @@
   "description": "",
   "main": "index.js",
   "files": [
-    "build/**/*"
+    "build/src/**/*"
   ],
   "bin": {
-    "cnv": "./build/index.js"
+    "cnv": "./build/src/index.js"
   },
   "scripts": {
     "test": "ava",
@@ -29,7 +29,7 @@
   "ava": {
     "typescript": {
       "rewritePaths": {
-        "src/": "build/"
+        "test/": "build/test/"
       },
       "compile": "tsc"
     }

@@ -1,7 +1,7 @@
 import test from 'ava'
-import parseNumberFromString from './helpers/parse-number-from-string'
-import parseUnitFromString from './helpers/parse-alphabet-from-string'
-import convert from './helpers/convert'
+import parseNumberFromString from '../src/helpers/parse-number-from-string'
+import parseUnitFromString from '../src/helpers/parse-alphabet-from-string'
+import convert from '../src/helpers/convert'
 
 test('#parseNumberFromString can parse number out of string', t => {
 	t.is(parseNumberFromString('23lb'), 23)
