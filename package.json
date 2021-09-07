@@ -6,6 +6,10 @@
   "files": [
     "build/src/**/*"
   ],
+  "repository": {
+    "url": "git@github.com:nkhil/cnv.git",
+    "type": "git"
+  },
   "bin": {
     "cnv": "./build/src/index.js"
   },
