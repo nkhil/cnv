@@ -6,7 +6,9 @@ CLI tool to convert units in the command line. This module uses the [convert-uni
 
 ## Motivation
 
-I built this for myself, because I usually google 
+I built this for myself, because I usually google to convert units. This allows me to do any conversions quickly (and offline) right in my terminal.
+
+I also wanted to build something using Typescript and test it using [ava](https://github.com/avajs/ava).
 
 ## Installation
 
@@ -31,6 +33,10 @@ cnv 1m cm
 cnv 1lb kg
 cnv 100oz ml
 ```
+
+## Features to be added
+
+* [ ] Better error handling
 
 ## Test
 
