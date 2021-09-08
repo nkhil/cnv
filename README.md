@@ -4,6 +4,8 @@
 
 CLI tool to convert units in the command line. This module uses the [convert-units](https://github.com/convert-units/convert-units) module under the hood.
 
+<img src="./img/screenshot.png">
+
 ## Motivation
 
 I built this for myself, because I usually google to convert units. This allows me to do any conversions quickly (and offline) right in my terminal.
@@ -36,7 +38,7 @@ cnv 100oz ml
 
 ## Features to be added
 
-* [ ] Better error handling
+* [ ] Better error handling (currently it throws any error convert-units throws which is informative but not pretty)
 
 ## Test
 
