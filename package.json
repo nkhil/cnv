@@ -17,7 +17,7 @@
     "test": "ava",
     "build": "tsc"
   },
-  "keywords": [],
+  "keywords": ["convert units", "command line"],
   "author": "",
   "license": "ISC",
   "dependencies": {
