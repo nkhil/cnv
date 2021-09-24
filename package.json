@@ -1,6 +1,6 @@
 {
   "name": "cnv",
-  "version": "0.1.8",
+  "version": "0.1.9",
   "description": "",
   "main": "index.js",
   "files": [
@@ -17,7 +17,10 @@
     "test": "ava",
     "build": "tsc"
   },
-  "keywords": ["convert units", "command line"],
+  "keywords": [
+    "convert units",
+    "command line"
+  ],
   "author": "",
   "license": "ISC",
   "dependencies": {
