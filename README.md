@@ -36,10 +36,6 @@ cnv 1lb kg
 cnv 100oz ml
 ```
 
-## Features to be added
-
-* [ ] Better error handling (currently it throws any error convert-units throws which is informative but not pretty)
-
 ## Test
 
 cnv is tested using [ava](https://github.com/avajs/ava).

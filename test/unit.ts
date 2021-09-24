@@ -6,7 +6,7 @@ import convert from '../src/helpers/convert'
 test('#parseNumberFromString can parse number out of string', t => {
 	t.is(parseNumberFromString('23lb'), 23)
 	t.is(parseNumberFromString('100kg'), 100)
-	t.is(parseNumberFromString('10.5kg'), 10.5)
+	t.is(parseNumberFromString  ('10.5kg'), 10.5)
 	t.is(parseNumberFromString('20.123kg'), 20.123)
 })
 

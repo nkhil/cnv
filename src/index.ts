@@ -21,10 +21,18 @@ if (!unit) {
   throw new Error('Unit could not be converted')
 }
 
-console.log(
-  convert({
+let result
+
+try {
+  result = convert({
     numberToConvert,
     unit,
     unitToConvertTo: unitToConvertTo as Unit,
-  }),
-)
+  })
+} catch (err: unknown) {
+  if (err instanceof Error) {
+    result = `Error: ${err.message}`
+  }
+}
+
+console.log(result)
