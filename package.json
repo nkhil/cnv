@@ -14,7 +14,7 @@
     "cnv": "./build/src/index.js"
   },
   "scripts": {
-    "test": "ava",
+    "test": "ava --verbose",
     "build": "tsc"
   },
   "keywords": [
