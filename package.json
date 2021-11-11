@@ -15,7 +15,8 @@
   },
   "scripts": {
     "test": "ava --verbose",
-    "build": "tsc"
+    "build": "tsc",
+    "prepublish": "npm run test && npm run build"
   },
   "keywords": [
     "convert units",
